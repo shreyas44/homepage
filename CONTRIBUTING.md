@@ -6,6 +6,12 @@ Please ensure all pull requests and contributions comply with the [Developer Cer
 
 First, fork this repository to your own account. Then use `git clone <url>` to bring your forked repository down to your local machine (remember to get the URL for _your_ repository, not the original). Optionally, use `git remote add upstream <url>` to add the original repository as the upstream (this is helpful for keeping your fork up-to-date).
 
+## Adding Content
+
+The root homepage is located at `index.html`. This is where a visitor will land when they visit our URL.
+
+Additional pages should go in the `views` folder, which will hold all of our HTML files. Styling, as CSS, and scripting, as JS, should go in the `public` folder. Any images or other media can go in the `assets` folder.
+
 ## Claiming an Issue
 
 All of our issues are open to contributors! If you see an open issue you would like to work on, please comment on the issue so we may assign it to you.
