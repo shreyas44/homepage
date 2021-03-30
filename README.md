@@ -1,18 +1,10 @@
-# Project Name
+# Homepage
 
-Project Description
-
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/new-repo-template)
+This repository contains the code for our communitiy's home page. The home page is built using basic HTML and CSS to lower the barrier of entry for contributing. Built with love by our community members, this page serves to encourage others to join our community!
 
 ## Live Version
 
-This page is not yet deployed.
-
-<!--This page is currently deployed. [View the live website.]()-->
+This page is currently deployed. [View the live website.](https://community.nhcarrigan.com)
 
 ## Feedback and Bugs
 
