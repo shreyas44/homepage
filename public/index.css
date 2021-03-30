@@ -1,5 +1,9 @@
 body {
-    background-color: #3a3240;
-    text-align: center;
-    color: #aea8d3;
+  background-color: #3a3240;
+  text-align: center;
+  color: #aea8d3;
+}
+
+a {
+  color: #aea8d3;
 }
