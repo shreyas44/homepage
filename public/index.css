@@ -13,17 +13,14 @@
 	padding: 0px;
 }
 body {
-  background-color: beige;
+  background-color: #1b1b32;
   text-align: center;
   color: #aea8d3;
   margin:0px;
   padding:0px;
 }
 main{
-	background: beige;
-}
-a {
-  color: #aea8d3;
+	background: #1b1b32;
 }
 ul {
   list-style-type: none;
@@ -52,15 +49,16 @@ li a:hover {
 nav ul{
 	display: flex;
 	list-style-type: none;
-	background: beige;
 	padding: 20px;
 	padding-left: 0px;
 }
-
+a{
+	color: #aea8d3;
+}
 #navlink{
 	text-decoration: none;
 	padding: 20px;
-	color: #3a3240;
+	color: #aea8d3;
 }
 #navlink:hover{
 	background: brown;
