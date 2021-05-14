@@ -22,48 +22,38 @@ body {
 main{
 	background: #1b1b32;
 }
+h2{
+	padding:20px;
+}
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color:#333333;
+  border-bottom: 2px solid white;
 }
-
+a{
+	color:#aea8d3;
+}
 li {
   float: left;
 }
 
-li a {
+#nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
 }
 
-li a:hover {
-  background-color: #111;
+#nav li a:hover {
+  background-color:brown;
 }
 
-nav ul{
-	display: flex;
-	list-style-type: none;
-	padding: 20px;
-	padding-left: 0px;
-}
-a{
-	color: #aea8d3;
-}
-#navlink{
-	text-decoration: none;
-	padding: 20px;
-	color: #aea8d3;
-}
-#navlink:hover{
-	background: brown;
-	color: white;
-}
+
+
 #welcome{
 	display: flex;
 	height: 90vh;
@@ -72,8 +62,9 @@ a{
 	font-size: 27px;
 	background: #3a3240;
 }
-#welcome h{
+#welcome h1{
 	padding: 20px;
+	font-family: monospace;
 }
 #opening{
 	border-radius: 30px;
@@ -82,8 +73,8 @@ a{
 	padding: 10%;
 }
 #whoisNH{
-	background:white;
-	color: #3a3240;
+	background:#e3dfd1;
+	color: black;
 	box-shadow: 10px;
 	border-radius: 30px;
 	width: 60vw;
@@ -95,4 +86,21 @@ a{
 	display: flex;
 	padding-top:20px;
 
+}
+#goals{
+	width: 60%;
+	padding:20px;
+	margin:auto;
+	background: beige;
+	color:grey;
+	border-radius: 30px;
+}
+
+@media screen and (max-width: 1000px){
+	#nicksInfo{
+		flex-direction: column;
+	}
+	#nicksInfo img{
+		margin:auto;
+	}
 }
