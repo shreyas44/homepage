@@ -1,3 +1,13 @@
+:root {
+  /* CSS HEX */
+  --dark-magenta: #9c138f;
+  --wisteria: #b695ce;
+  --bone: #e3dfd1;
+  --jet: #333333;
+  --purple-pizzazz: #e74bda;
+  --blue-violet-color-wheel: #511e6a;
+}
+
 body {
   background-color: #3a3240;
   text-align: center;
