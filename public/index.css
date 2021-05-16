@@ -14,23 +14,26 @@
 }
 body {
   background-color: #1b1b32;
-  text-align: center;
   color: #aea8d3;
   margin:0px;
   padding:0px;
+  font-family: sans-serif;
 }
 main{
 	background: #1b1b32;
 }
 h2{
 	padding:20px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 3rem;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color:#b695ce;
+
 }
 a{
 	color:#aea8d3;
@@ -38,7 +41,10 @@ a{
 li {
   float: left;
 }
+#nav{
+	box-shadow: 10px 0px 10px white;
 
+}
 #nav li a {
   display: block;
   color: white;
@@ -66,10 +72,23 @@ li {
 	font-family: monospace;
 }
 #opening{
-	border-radius: 30px;
-	background: #3a3240;
-	margin:10%;
-	padding: 10%;
+	margin:5%;
+	padding: 5%;
+	font-family: monospace;
+	font-size: 1rem;
+}
+#gaming{
+	margin: 5%;
+	padding: 5%;
+	font-family: monospace;
+	font-size: 1rem;
+}
+#discussion{
+	margin:5%;
+	padding: 5%;
+	font-family: monospace;
+	font-size: 1rem;
+
 }
 #whoisNH{
 	background:#e3dfd1;
@@ -86,13 +105,27 @@ li {
 	padding-top:20px;
 
 }
+
+#goals h2{
+	color: #3a3240;
+
+}
+#whoisNH h2{
+	color: #3a3240;
+}
 #goals{
-	width: 60%;
+	width: 80%;
 	padding:20px;
 	margin:auto;
 	background: beige;
 	color:grey;
 	border-radius: 30px;
+	font-family: monospace;
+	font-size: 1rem;
+
+}
+#mods{
+	text-align:center;
 }
 
 @media screen and (max-width: 1000px){
