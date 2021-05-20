@@ -36,8 +36,12 @@ ul {
   overflow: hidden;
 
 }
+#opening h3 a{
+	color: white;
+}
 a{
 	color:#aea8d3;
+	text-decoration: none;
 }
 li {
   float: left;
