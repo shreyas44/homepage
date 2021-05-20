@@ -23,7 +23,8 @@ main{
 	background: #1b1b32;
 }
 h2{
-	padding:20px;
+	padding-top:20px;
+	padding-bottom:20px;
 	font-family: sans-serif;
 	color: white;
 	font-size: 3rem;
