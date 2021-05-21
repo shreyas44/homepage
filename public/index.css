@@ -132,6 +132,10 @@ li {
 #mods{
 	text-align:center;
 }
+#calender{
+	padding: 20px;
+	text-decoration: underline;
+}
 
 @media screen and (max-width: 1000px){
 	#nicksInfo{
