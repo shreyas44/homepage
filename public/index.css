@@ -48,7 +48,7 @@ li {
 	float: left;
 }
 #nav {
-	box-shadow: 10px 0px 10px white;
+	box-shadow: 0 0px 10px rgba(255, 255, 255, 0.3);
 	background-color: var(--main-bg);
 	position: fixed;
 	width: 100%;
