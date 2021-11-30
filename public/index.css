@@ -110,9 +110,15 @@ li {
   margin: 10% auto;
   padding: 5%;
 }
+
 #nicksInfo {
   display: flex;
   padding-top: 20px;
+}
+
+#nicksInfo .para {
+  margin-bottom: 0.75rem;
+  line-height: 1.25rem;
 }
 
 #goals h2 {
